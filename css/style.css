@@ -8,11 +8,15 @@ html {
     color: #EFA328;
 }
 
+body {
+        background-color:#1D1235;
+
+}
 #heading {
     display: flex;
     justify-content:center;
     background-color:#1D1235;
-    color:#EFA328;
+    color: #EFA328;
 }
 #middle {
     background-color:#1D1235;
@@ -22,6 +26,8 @@ html {
 
 #midcol{
     flex-direction:column;
+    color: #EFA328;
+    
 }
 
 .footer {
@@ -38,8 +44,20 @@ html {
 }
 .mainimg{
     width: 500px;
+    height: 500px;
+    border:2px solid lightblue;
     margin: 15px;
 }
+
+#gallery {
+    display: flex;
+    
+}
+.thumbnail-img {
+    height: 350px;
+    width: 500px;
+}
+
 a {
     text-decoration: none;
     color:#EFA328;
