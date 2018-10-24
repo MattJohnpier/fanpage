@@ -18,7 +18,7 @@ body {
     background-color:#1D1235;
     color: #EFA328;
 }
-#middle {
+#main {
     background-color:#1D1235;
     display: flex;
     justify-content: space-between;
